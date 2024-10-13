@@ -30,10 +30,10 @@ a small Lib meant to make fetching data via PHP-Curl easy.
     }
 
     // Available Fields on FetchResult
-	$oFetch->protokoll;  // HTTP-Protocol
-	$oFetch->status;     // HTTP Response-Status (200 OK, 404 Not Found, etc.)
+    $oFetch->protokoll;  // HTTP-Protocol
+    $oFetch->status;     // HTTP Response-Status (200 OK, 404 Not Found, etc.)
     $oFetch->statusText; // Default text connected to the status "OK" for 200, etc. .. 
     $oFetch->body;       // The Raw Response-Body in plain-text format
-	$oFetch->headers;    // An Array containing all Response-Headers
+    $oFetch->headers;    // An Array containing all Response-Headers
 
  ```
